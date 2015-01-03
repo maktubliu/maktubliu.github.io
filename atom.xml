@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Maktub Liu's Blog]]></title>
+  <subtitle><![CDATA[Hello world]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2015-01-03T13:27:13.811Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[Maktub Liu]]></name>
+    <email><![CDATA[lqlchh@163.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[第一篇博客]]></title>
+    <link href="http://yoursite.com/2015/01/03/my-new-post/"/>
+    <id>http://yoursite.com/2015/01/03/my-new-post/</id>
+    <published>2015-01-03T12:53:07.000Z</published>
+    <updated>2015-01-03T13:05:39.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="饿死了！！！">饿死了！！！</h2>
+<p><strong>终于弄完了！</strong>花了好几个小时弄博客， 饭还没吃，智商捉急，以后也会好好开始写博客了，总结只是还要写些文章，毕竟我这个码畜得好好奋斗啊，为了面包！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="饿死了！！！">饿死了！！！</h2>
+<p><strong>终于弄完了！</strong>花了好几个小时弄博客， 饭还没吃，智商捉急，以后也会好好开始写博客了，总结只是还要写些文章，毕竟我这个码畜得好好奋斗啊，为了面包！</p>
+]]>
+    </summary>
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="文章" scheme="http://yoursite.com/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
+  
+</feed>

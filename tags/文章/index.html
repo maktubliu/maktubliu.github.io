@@ -1,16 +1,15 @@
 
-  
-    <!DOCTYPE HTML>
+  <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   
-    <title>第一篇博客 | Maktub Liu&#39;s Blog</title>
+    <title>Tag: 文章 | Maktub Liu&#39;s Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Maktub Liu">
     
-    <meta name="description" content="ѧϰ ����">
+    <meta name="description" content="学习总结 思考感悟">
     
     
     
@@ -26,9 +25,9 @@
 
 </head>
 
-      <body>
-        <header>
-          <div>
+    <body>
+      <header>
+        <div>
 		
 			<div id="imglogo">
 				<a href="/"><img src="/img/logo.svg" alt="Maktub Liu&#39;s Blog" title="Maktub Liu&#39;s Blog"/></a>
@@ -36,7 +35,7 @@
 			
 			<div id="textlogo">
 				<h1 class="site-name"><a href="/" title="Maktub Liu&#39;s Blog">Maktub Liu&#39;s Blog</a></h1>
-				<h2 class="blog-motto">��������������̸̸</h2>
+				<h2 class="blog-motto">Hello world</h2>
 			</div>
 			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
 			</a></div>
@@ -60,48 +59,33 @@
 			</nav>			
 </div>
 
-        </header>
-        <div id="container">
-          <div id="main" class="page" itemscope itemprop="blogPost">
-	<article itemprop="articleBody"> 
-		<header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/第一篇博客/index.html" title="第一篇博客" itemprop="url">第一篇博客</a>
-  </h1>
-  <p class="article-author">By
-    
-      <a href="http://yoursite.com" title="Maktub Liu">Maktub Liu</a>
-    </p>
-  <p class="article-time">
-    <time datetime="2015-01-03T11:23:34.000Z" itemprop="datePublished">1月 3 2015</time>
-    更新日期:<time datetime="2015-01-03T11:23:34.000Z" itemprop="dateModified">1月 3 2015</time>
-    
-  </p>
-</header>
-	<div class="article-content">
-		
-		
-		  
-	</div>
-		<footer class="article-footer clearfix">
+      </header>
+      <div id="container">
+        
 
-
-
-
-<div class="article-share" id="share">
-
-  <div data-url="http://yoursite.com/第一篇博客/index.html" data-title="第一篇博客 | Maktub Liu&#39;s Blog" data-tsina="null" class="share clearfix">
-  </div>
-
+<div class="archive-title" >
+  <h2 class="tag-icon">文章</h2>
+  
 </div>
-</footer>   	       
-	</article>
-	
-	
-</div>  
-        </div>
-        <footer><div id="footer" >
+<div id="main" class="archive-part clearfix">
+  <div id="archive-page">
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2015/01/03/my-new-post/" title="第一篇博客" itemprop="url">
+  
+    <h1 itemprop="name">第一篇博客</h1>
+    
+    <time datetime="2015-01-03T12:53:07.000Z" itemprop="datePublished">1月 3 2015</time>
+  </a>
+</section>
+
+
+  </div>
+</div>
+
+      </div>
+      <footer><div id="footer" >
 	
 	<div class="line">
 		<span></span>
@@ -123,7 +107,7 @@
 		</p>
 </div>
 </footer>
-        <script src="/js/jquery-2.1.0.min.js"></script>
+      <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
   $('.navbar').click(function(){
@@ -170,39 +154,10 @@ $(document).ready(function(){
 </script>
 
 
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var $this = $('.share'),
-      url = $this.attr('data-url'),
-      encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
-      tsina = $this.attr('data-tsina');
-  var html = [
-  '<a href="#" class="overlay" id="qrcode"></a>',
-  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
-  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
-  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
-  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
-  '<span title="Share to"></span>'
-  ].join('');
-  $this.append(html);
-  $('.article-share-qrcode').click(function(){
-    var imgSrc = $('#qrcode-pic').attr('data-src');
-    $('#qrcode-pic').attr('src', imgSrc);
-    $('#qrcode-pic').load(function(){
-        $('.qrcode strong').text(' ');
-    });
-  });
-});     
-</script>
 
 
 
 
 
-
-      </body>
-     </html>
-     
+    </body>
+   </html>
